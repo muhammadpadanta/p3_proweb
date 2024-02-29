@@ -22,14 +22,60 @@
             justify-content: space-between;
             padding: 20px;
         }
-        .sidebar {
+        .sidebar1 {
+            display: flex;
+            justify-items: center;
+            background: url(https://pophariini.com/wp-content/uploads/2020/06/NOAH-1-dok-musica.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             width: 250px;
-            background-color: #444;
+            height: 200px;
             color: #fff;
             padding: 20px;
         }
+
+        .sidebar2 {
+            display: flex;
+            justify-items: center;
+            background: url(https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/indizone/2023/01/24/jzs7k54/daftar-7-grup-band-termahal-di-indonesia-ada-idolamu83.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 250px;
+            height: 200px;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .sidebar3 {
+            display: flex;
+            justify-items: center;
+            background: url(https://img.inews.co.id/files/networks/2022/07/23/ff5c0_godbless.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 250px;
+            height: 200px;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .sidebar4 {
+            display: flex;
+            justify-items: center;
+            background: url(https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/04/18/1964005546.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 250px;
+            height: 200px;
+            color: #fff;
+            padding: 20px;
+        }
+
         .main-content {
-            flex: 1;
+            flex: 3;
             background-color: #fff;
             padding: 20px;
         }
@@ -39,27 +85,59 @@
             padding: 20px;
             text-align: center;
         }
+
+        
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Dashboard</h1>
     </div>
+    <div class="col-md-10">
+    </div>    
+
     <div class="container">
-        <div class="sidebar">
-            <h2>Sidebar</h2>
-            <ul>
-                <li>Menu Item 1</li>
-                <li>Menu Item 2</li>
-                <li>Menu Item 3</li>
-                <li>Menu Item 4</li>
-            </ul>
+        <div class="sidebar1">
+
         </div>
         <div class="main-content">
             <h2>Main Content</h2>
-            <p>Welcome to your dashboard!</p>
+            <p>Paragraph</P>
+
+        </div>
+
+        <div class="sidebar2">
+
+        </div>
+        <div class="main-content">
+            <h2>Main Content</h2>
+            <p>Paragraph</P>
+
         </div>
     </div>
+
+        <div class="container">
+
+        <div class="sidebar3">
+
+        </div>
+        <div class="main-content">
+            <h2>Main Content</h2>
+            <p>Paragraph</P>
+
+        </div>
+
+        <div class="sidebar4">
+
+        </div>
+        <div class="main-content">
+            <h2>Main Content</h2>
+            <p>Paragraph</P>
+
+        </div>
+        
+    </div>
+
     <div class="footer">
         <p>&copy; 2024 Dashboard App</p>
     </div>

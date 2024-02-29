@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\DaftarController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ListBarangController;
+use App\Http\Controllers\registerController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
@@ -22,6 +24,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/login', [LoginController::class, 'showLogin'])->name('login');
-Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
-Route::get('/list', [ListBarangController::class, 'listBarang'])->name('listBarang');
+Route::get('/daftar', [DaftarController::class, 'register']);
+Route::get('/login', [LoginController::class, 'showLogin']);
+Route::get('/dashboard', [DashboardController::class, 'dashboard']);
+Route::get('/list', [ListBarangController::class, 'listBarang']);
