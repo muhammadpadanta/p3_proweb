@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ListBarangController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +20,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/login', [LoginController::class, 'showLogin'])->name('login');
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+Route::get('/list', [ListBarangController::class, 'listBarang'])->name('listBarang');
