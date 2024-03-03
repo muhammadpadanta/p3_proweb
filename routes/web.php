@@ -1,11 +1,12 @@
 <?php
 
-use App\Http\Controllers\DaftarController;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\ListBarangController;
-use App\Http\Controllers\registerController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\DaftarController;
+use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\registerController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ListBarangController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
@@ -19,12 +20,13 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
 Route::get('/daftar', [DaftarController::class, 'register']);
 Route::get('/login', [LoginController::class, 'showLogin']);
-Route::get('/dashboard', [DashboardController::class, 'dashboard']);
+Route::get('/', [DashboardController::class, 'dashboard']);
 Route::get('/list', [ListBarangController::class, 'listBarang']);
+Route::get('/profil', [ProfilController::class, 'profil']);
