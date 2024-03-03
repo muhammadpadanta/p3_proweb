@@ -30,3 +30,4 @@ Route::get('/login', [LoginController::class, 'showLogin']);
 Route::get('/', [DashboardController::class, 'dashboard']);
 Route::get('/list', [ListBarangController::class, 'listBarang']);
 Route::get('/profil', [ProfilController::class, 'profil']);
+Route::get('/pembayaran', [ProfilController::class, 'pembayaran']);

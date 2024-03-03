@@ -18,4 +18,9 @@ class ProfilController extends Controller
 
         return view('profil', compact('data'));
     }
+
+    public function pembayaran(){
+
+        return view('pembayaran');
+    }
 }
