@@ -12,9 +12,13 @@
             background-color: #f4f4f4;
         }
         .header {
+            background: url(https://3.bp.blogspot.com/-HPh-VhlXZ1Q/WiJpKt0g7II/AAAAAAAAA6A/ZN9E_F1ehqsynMFW9OHXba664JB3srRUgCLcBGAs/s1600/padi.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             background-color: #333;
             color: #fff;
-            padding: 20px;
+            padding: 150px;
             text-align: center;
         }
         .container {
@@ -97,45 +101,58 @@
     </div>    
 
     <div class="container">
+
         <div class="sidebar1">
 
-        </div>
-        <div class="main-content">
-            <h2>Main Content</h2>
-            <p>Paragraph</P>
 
         </div>
 
         <div class="sidebar2">
 
         </div>
-        <div class="main-content">
-            <h2>Main Content</h2>
-            <p>Paragraph</P>
-
-        </div>
-    </div>
-
-        <div class="container">
+        
+        
 
         <div class="sidebar3">
 
         </div>
-        <div class="main-content">
-            <h2>Main Content</h2>
-            <p>Paragraph</P>
 
-        </div>
+        
 
         <div class="sidebar4">
 
         </div>
-        <div class="main-content">
-            <h2>Main Content</h2>
-            <p>Paragraph</P>
+
+        
+        
+    </div>
+
+    <div class="container">
+            
+        <div class="sidebar1">
 
         </div>
+
         
+
+        <div class="sidebar2">
+
+        </div>
+
+       
+
+        <div class="sidebar3">
+
+        </div>
+
+        
+
+        <div class="sidebar4">
+
+        
+    
+        </div>
+
     </div>
 
     <div class="footer">
