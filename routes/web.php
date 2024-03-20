@@ -25,7 +25,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 // });
 
 
-Route::get('/daftar', [DaftarController::class, 'register']);
+Route::get('/register', [DaftarController::class, 'register']);
 Route::get('/login', [LoginController::class, 'showLogin']);
 Route::get('/', [DashboardController::class, 'dashboard']);
 Route::get('/list', [ListBarangController::class, 'listBarang']);
